@@ -21,12 +21,6 @@ const filter = new Filter({
  *       schema:
  *         $ref: '#/components/schemas/NewHoot'
  * responses:
- *   '201':
- *     description: successfully created hoot
- *     content:
- *       application/json:
- *         schema:
- *           $ref: '#/components/schemas/BigHoot'
  *   '400':
  *     description: invalid hoot data received
  *     content:
