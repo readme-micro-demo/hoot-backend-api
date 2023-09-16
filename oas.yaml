@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  version: '1.0.0'
+  version: '1.0.1'
   title: Hoot
   license:
     name: ISC
@@ -15,11 +15,11 @@ servers:
 components:
   parameters:
     id:
-      name: id
+      name: id2
       in: path
       schema:
         type: string
-      description: The id of the hoot you want
+      description: The id of the hoot you want!
       required: true
       example: 5c3e39af342143680d31775c
   securitySchemes:
