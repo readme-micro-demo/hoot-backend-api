@@ -10,7 +10,7 @@ const filter = new Filter({
 
 /*
  * @oas [post] /hoot
- * summary: Create a hoot
+ * summary: Create a hoot!
  * description: Post a new hoot to the site
  * tags: ['Hoots']
  * requestBody:
